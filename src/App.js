@@ -3,40 +3,48 @@ import './App.css';
 
 function App() {
 
-// let x=10;
+      // let arr =[15,17,35,45,67];
 
-// x=x+5;
+      // let arr1 =[88,99];
 
-// console.log(x);
+       // let newArr =arr.concat(arr1);
+       // console.log(newArr); 
 
-
-// const x=10;
-
-// x=x+5;nam,
-// console.log(x);
+      // let arr =[12,34,56,67,90];
+      // let arr =[88,77];
 
 
-// {
-//   const x=10;
-// }
-// console.log(x);
+      // let newarr =arr.concat(arr1);
+      // console.log(new arr);.
 
-// const display =(Name,id) => {
-//   console.log(Name , id);
-// }
+      // //---
 
-// display ("deep",7);
+      // let ans = arr.some((a) => a>30);
+      // console.log(ans);
 
-// let grid =[12,18,26,27,28,46,'x'];
+      // //-----
 
-// console.log(grid[3], grid);
+      // console.log(arr.tostring());
+      // //---------
+
+      // let ans =arr.find((a) => a>30);
+      // console.log(ans);
+
+      // //---------
+
+      // arr.splice (2,0,88);
+      // arr.splice (2,2);
+      // cosole.log(arr);
 
 
-// let arr = [12,18,26,27,28,46];
 
-// let ans = Array.isArray(arr);
 
-// console.log(ans);
+
+
+
+
+
+
 
 
   return (
