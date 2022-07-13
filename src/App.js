@@ -3,48 +3,66 @@ import './App.css';
 
 function App() {
 
-      // let arr =[15,17,35,45,67];
+      // objecat---
 
-      // let arr1 =[88,99];
+// let obj = {
+//   id :101,
+//   name :'deep'
+// };
 
-       // let newArr =arr.concat(arr1);
-       // console.log(newArr); 
+// console.log(obj.id,obj['name']);
 
-      // let arr =[12,34,56,67,90];
-      // let arr =[88,77];
+// let arr =[1,2,3,5,7,9];
 
+//copy array
 
-      // let newarr =arr.concat(arr1);
-      // console.log(new arr);.
-
-      // //---
-
-      // let ans = arr.some((a) => a>30);
-      // console.log(ans);
-
-      // //-----
-
-      // console.log(arr.tostring());
-      // //---------
-
-      // let ans =arr.find((a) => a>30);
-      // console.log(ans);
-
-      // //---------
-
-      // arr.splice (2,0,88);
-      // arr.splice (2,2);
-      // cosole.log(arr);
+// let arr1 =[...arr];
+// console.log(arr1);
 
 
+// merging
+
+// let arr2 =[99,100];
+// let ans =[...arr,...arr2];
+
+// consle.log(arr1);
+
+// destrcturing
+
+// let x=10;
+
+// x=x+5;
+
+// console.log(x);
 
 
+// const x=10;
+
+// x=x+5;nam,
+// console.log(x);
 
 
+// {
+//   const x=10;
+// }
+// console.log(x);
+
+// const display =(Name,id) => {
+//   console.log(Name , id);
+// }
+
+// display ("deep",7);
+
+// let grid =[12,18,26,27,28,46,'x'];
+
+// console.log(grid[3], grid);
 
 
+// let arr = [12,18,26,27,28,46];
 
+// let ans = Array.isArray(arr);
 
+// console.log(ans);
 
 
   return (
