@@ -2,70 +2,71 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-
-      // objecat---
-
-// let obj = {
-//   id :101,
-//   name :'deep'
-// };
-
-// console.log(obj.id,obj['name']);
-
-// let arr =[1,2,3,5,7,9];
-
-//copy array
-
-// let arr1 =[...arr];
-// console.log(arr1);
+  let data = 
 
 
-// merging
+  [
+    {
+      name: "amit",
+      age: 35,
+      salary: 40000,
+      bonus: 1000,
+      status: true
+    },
+    {
+      name: "ajay",
+      age: 25,
+      salary: 38000,
+      bonus: 2000,
+      status: false
+    },
+    {
+      name: "mayur",
+      age: 23,
+      salary: 50000,
+      bonus: 500,
+      status: true
+    },
+    {
+      name: "jay",
+      age: 29,
+      salary: 35000,
+      bonus: 600,
+      status: true
+    },
+    {
+      name: "raj",
+      age: 33,
+      salary: 22000,
+      bonus: 2000,
+      status: true
+    },
+  ]
+    return(
+      <div>
+        {
+          data.map((v,i)=>{
+            return(
+              <div> 2
+                <h1>{v.name}</h1>
+                <h2>{v.salary}</h2>
+              </div>
+            )
+          }
+          )
+        }
+      </div>
+    )
 
-// let arr2 =[99,100];
-// let ans =[...arr,...arr2];
+    let fdata= data.filter((v,i) =>v.status === true);
+    console.log(data);
 
-// consle.log(arr1);
+    let totalprice=fdata.reduse((acc,v,i)=>acc+v.price , 0);
+    console.log(totalprice);
 
-// destrcturing
-
-// let x=10;
-
-// x=x+5;
-
-// console.log(x);
-
-
-// const x=10;
-
-// x=x+5;nam,
-// console.log(x);
-
-
-// {
-//   const x=10;
-// }
-// console.log(x);
-
-// const display =(Name,id) => {
-//   console.log(Name , id);
-// }
-
-// display ("deep",7);
-
-// let grid =[12,18,26,27,28,46,'x'];
-
-// console.log(grid[3], grid);
-
-
-// let arr = [12,18,26,27,28,46];
-
-// let ans = Array.isArray(arr);
-
-// console.log(ans);
-
-
+ 
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -83,6 +84,6 @@ function App() {
       </header>
     </div>
   );
-}
+  }
 
 export default App;
